@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dred-py"
+version = "0.1.0"
+description = "An API wrapper for the Deep Space Airships (formerly dredark) API."
+authors = ["cserver45 <cservergaming@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dred"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
